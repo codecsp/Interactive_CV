@@ -1,0 +1,49 @@
+<html>
+
+<head>
+	<title>Soham Patil CV</title>
+
+	<link rel = "icon" href = "assets/sp.png" type = "image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<script src = "phaser.min.js"></script>
+	<script src = "myresume.js"></script>
+	
+<style>
+	body
+	{
+			margin:0px;
+			padding: 0px;
+	}
+</style>
+</head>
+<body>
+	<div id="canvas">
+	</div>
+	<div id="CounterVisitor">
+</div>
+
+<script>
+	var n = localStorage.getItem('on_load_counter');
+
+	if (n === null) 
+	{
+	  n = 0;
+	}
+	n++;
+
+	localStorage.setItem("on_load_counter", n);
+
+	nums = n.toString().split('').map(Number);
+	document.getElementById('CounterVisitor').innerHTML = '';
+	var string="";
+	for (var i of nums) 
+	{
+	  string+=i;
+	}
+
+	console.log("Total Website visits count: ",string)
+
+</script>
+
+</body>
+</html>
