@@ -29,7 +29,7 @@ var codechef_url="https://www.codechef.com/users/iamsohampatil";
 var github_url="https://github.com/codecsp";
 var facebook_url="https://www.facebook.com/soham.patil.33886";
 var linkedin_url="https://linkedin.com/in/sohampatilsp/";
-var resume_url = "/assets/Soham_Patil_SDE2_4_Yrs.pdf";
+var resume_url = "./assets/Soham_Patil_SDE2_4_Yrs.pdf";
 var website_url = "http://www.sohampatil.me";
 var gmail_url = "sohamspatil30@gmail.com";
 var inst_text ;
